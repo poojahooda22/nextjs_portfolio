@@ -44,7 +44,7 @@ export default function Project({ title, description, tags, imageUrl}:
                         </li>
                     ) )}
                 </ul>
-            </div>
+            </div> 
             <Image 
                 src={imageUrl} alt={title} quality={95}
                 className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] object-fit rounded-t-lg shadow-2xl
