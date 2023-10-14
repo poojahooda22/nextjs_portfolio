@@ -1,0 +1,9 @@
+.my-custom-class .vertical-timeline-element-content.is-hidden {
+    display: block !important;
+    visibility: visible;  /* or any style to make it visible */
+}
+.line-class .vertical-timeline-element-icon.is-hidden {
+    display: block !important;
+    visibility: visible; 
+    color: "#e5e7eb"
+}
