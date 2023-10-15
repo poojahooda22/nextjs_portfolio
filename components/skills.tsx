@@ -4,7 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 
 
@@ -17,12 +17,13 @@ const fadeInAnimationsVariants = {
         opacity: 1,
         y: 0,
         transition: {
-            delay: 0.05 * index,
+            delay: 0.08 * index,
         },
     }),
 };
 export default function Skills() {
   const { ref } = useSectionInView("Skills");
+  
 
   return (
     <section
@@ -35,7 +36,7 @@ export default function Skills() {
       text-lg text-gray-800">
         {skillsData.map((skill, index) => (
             <motion.li
-                className="bg-white border border/black[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+                className="bg-white border border/black[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 dark:border-none "
                 key={index}
                 variants={fadeInAnimationsVariants}
                 initial="initial"
