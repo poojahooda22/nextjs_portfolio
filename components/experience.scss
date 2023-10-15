@@ -5,12 +5,12 @@
 .line-class .vertical-timeline-element-icon.is-hidden {
     display: block !important;
     visibility: visible; 
-    color: "red";
+    background-color: #fff; 
     z-index: -1,
 }
 
 .vertical-timeline::before {
-    background: #cfcfcf;
+    background: #e7e7e7;
     width: 4px;
     height: 100%;
     left: 50%;
@@ -20,13 +20,7 @@
     z-index: -1;
 }
 
-.dark .vertical-timeline::before {
-    background: #f9f9f9;
-    width: 4px;
-    height: 100%;
-    left: 50%;
-    top: 0;
-    content: '';
-    position: absolute;
-    z-index: -1;
+.dark .line-class .vertical-timeline-element-icon.is-hidden  {
+    background-color: #373737;
+    z-index: 999;
 } 
