@@ -4,7 +4,7 @@ import React, { useRef } from 'react';
 import { projectsData } from '@/lib/data'
 import Image from 'next/image'
 import { useScroll, useTransform , motion} from 'framer-motion';
-
+import { SmoothCorners } from 'react-smooth-corners'
 
 type ProjectProps = (typeof projectsData)[number];
  
@@ -27,10 +27,15 @@ export default function Project({ title, description, tags, imageUrl}:
                 opacity: opacityProgress,
             }}
             className=' group mb-3 sm:mb-8 last:mb-0'
-        >   
+        >
+
+        {/* <SmoothCorners 
+            corners="5" borderRadius="20px"
+            
+        > */}
         <section 
             className='group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]
-            mb-3 sm:mb-8 last:mb-0 even-pl-8 hover:bg-gray-200 transition
+            mb-3 sm:mb-8 last:mb-0 even-pl-8 hover:bg-gray-200 transition rounded-xl
             group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20'>
             <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[20rem]'>
                 <h3 className='text-2xl font-semibold'>{title}</h3>
@@ -47,6 +52,8 @@ export default function Project({ title, description, tags, imageUrl}:
             </div> 
             <Image 
                 src={imageUrl} alt={title} quality={95}
+                
+                
                 className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] object-fit rounded-t-lg shadow-2xl
                 transition
                 group-hover:scale-[1.04] 
@@ -62,6 +69,10 @@ export default function Project({ title, description, tags, imageUrl}:
                 group-even:-left-40'
             />
         </section>
+        {/* </SmoothCorners> */}
     </motion.div>
     );
 }
+
+
+
