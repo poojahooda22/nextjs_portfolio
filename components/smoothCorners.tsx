@@ -2,12 +2,12 @@
 
 // import React, { ReactNode, CSSProperties } from 'react';
 
-interface SmoothCornersProps {
-  children: ReactNode;
-  borderRadius?: string;
-    corners?: string;
-  style?: CSSProperties;
-}
+// interface SmoothCornersProps {
+//   children: ReactNode;
+//   borderRadius?: string;
+//     corners?: string;
+//   style?: CSSProperties;
+// }
 
 
 const SmoothCorners: React.FC<SmoothCornersProps> = ({ 
