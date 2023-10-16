@@ -1,6 +1,6 @@
 "use client"
 
-import React, { ReactNode, CSSProperties } from 'react';
+// import React, { ReactNode, CSSProperties } from 'react';
 
 interface SmoothCornersProps {
   children: ReactNode;
