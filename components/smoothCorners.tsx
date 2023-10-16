@@ -10,19 +10,19 @@
 // }
 
 
-const SmoothCorners: React.FC<SmoothCornersProps> = ({ 
-    children, 
+// const SmoothCorners: React.FC<SmoothCornersProps> = ({ 
+//     children, 
 
     
-    borderRadius = '10px', 
-    corners="30px",
-    style = {} 
-}) => {
-    const combinedCorners = corners ? { borderRadius: corners } : { borderRadius };
-    return (
-        <div style={{ ...combinedCorners, ...style }}>
-            {children}
-        </div>
-    );
-};
+//     borderRadius = '10px', 
+//     corners="30px",
+//     style = {} 
+// }) => {
+//     const combinedCorners = corners ? { borderRadius: corners } : { borderRadius };
+//     return (
+//         <div style={{ ...combinedCorners, ...style }}>
+//             {children}
+//         </div>
+//     );
+// };
 export default SmoothCorners;
