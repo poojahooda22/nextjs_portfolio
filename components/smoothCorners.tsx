@@ -25,4 +25,4 @@
 //         </div>
 //     );
 // };
-// export default SmoothCorners;
+export default SmoothCorners;
