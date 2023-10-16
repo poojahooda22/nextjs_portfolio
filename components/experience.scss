@@ -1,26 +1,34 @@
 .my-custom-class .vertical-timeline-element-content.is-hidden {
     display: block !important;
-    visibility: visible;  /* or any style to make it visible */
+    visibility: visible;
 }
+
 .line-class .vertical-timeline-element-icon.is-hidden {
     display: block !important;
     visibility: visible; 
     background-color: #fff; 
-    z-index: -1,
+    border: 1px solid #d5d5d8;  // Adjusted to 1px
+    z-index: 999;
+    overflow: hidden;  // Prevents any child elements from breaking the circle shape
+}
+
+.line-class .vertical-timeline-element-icon {
+    z-index: 1000 !important; // This ensures the icons always stay above the line.
+    border: 1px solid #e4e4e7; // Adjusted border to 1px as you wanted
+    background-color: #fff;
 }
 
 .vertical-timeline::before {
-    background: #e7e7e7;
-    width: 4px;
+    background: #e4e4e7;
+    width: 2px;
     height: 100%;
     left: 50%;
     top: 0;
     content: '';
     position: absolute;
-    z-index: -1;
+    z-index: 999; // This keeps the line just below the icons.
 }
-
-.dark .line-class .vertical-timeline-element-icon.is-hidden  {
-    background-color: #373737;
-    z-index: 999;
-} 
+// .dark .line-class .vertical-timeline-element-icon.is-hidden  {
+//     background-color: #373737;
+//     z-index: 999;
+// } 
