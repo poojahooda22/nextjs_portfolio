@@ -25,8 +25,9 @@ export default function Experience() {
                            contentStyle={{
                             background:
                               theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
-                            boxShadow:  "0px 1px 2px rgba(16, 24, 40, 0.1) , 1px 0px 3px rgba(16, 24, 40, 0.1) ",
-                          
+                            boxShadow:  "0px 12px 16px -4px rgba(16, 24, 40, 0.08) , 0px 4px 6px -2px rgba(16, 24, 40, 0.03) ",
+                            border: 
+                            theme ==="light" ? "1px solid #e4e4e7" : "none",
                             textAlign: "left",
                             borderRadius: "16px",
                             padding: "1.3rem 2rem",
@@ -45,10 +46,12 @@ export default function Experience() {
                             background:
                             theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                             fontSize: "1.5rem",
-                            
+                            border: 
+                            theme ==="light" ? "1.5px solid #e4e4e7" : "none",
+                            zIndex: 
+                            theme ==="light" ? "999" : "-1",
                             
                           }}
-
                         >
                             <h3  className="font-semibold capitalize mb-2">{item.title}</h3>
                             <p className="font-normal !mt-0  mb-2">{item.location}</p>
@@ -57,8 +60,6 @@ export default function Experience() {
                     </React.Fragment>
                 ))}    
         </VerticalTimeline>
-
-   
     </section>
   );
 }
