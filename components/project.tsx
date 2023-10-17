@@ -28,11 +28,6 @@ export default function Project({ title, description, tags, imageUrl}:
             }}
             className=' group mb-3 sm:mb-8 last:mb-0'
         >
-
-        {/* <SmoothCorners 
-            corners="5" borderRadius="20px"
-            
-        > */}
         <section 
             className='group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]
             mb-3 sm:mb-8 last:mb-0 even-pl-8 hover:bg-gray-200 transition rounded-xl
@@ -68,8 +63,7 @@ export default function Project({ title, description, tags, imageUrl}:
                 group-even:right-[initial] 
                 group-even:-left-40'
             />
-        </section>
-        {/* </SmoothCorners> */}
+        </section>  
     </motion.div>
     );
 }
