@@ -97,7 +97,8 @@ export default function Intro() {
                 rounded-full outline-none focus:scale-110 hover:scale-110
                 hover:bg-white active:scale-105
                 transition cursor-pointer dark:bg-white/10' href='/CV.pdf' download
-            >Download CV <HiDownload className='opacity-70 group-hover:translate-1 transition' />
+            >Download CV <HiDownload className='opacity-70 group-hover:translate-1 
+            transition' />
             </a>
             <a 
                 className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105
