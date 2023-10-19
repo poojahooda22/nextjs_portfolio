@@ -65,7 +65,8 @@ export default function Contact() {
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-[#f3f4f6] 
-          dark:bg-opacity-10 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          dark:bg-opacity-10 dark:focus:bg-opacity-100 transition-all 
+          dark:outline-none"
           name="message"
           placeholder="Your message"
           required
@@ -80,7 +81,7 @@ export default function Contact() {
           <FaPaperPlane 
             className="text-xs opacity-70 transition-all group-hover:translate-x-1 
             group-hover:-translate-y-1"  
-            /> {" "}
+           /> {" "}
         </button>
       </form>
     </motion.section>
