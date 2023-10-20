@@ -4,21 +4,13 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-// import { sendEmail } from "@/actions/sendEmail";
+import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 import { FaPaperPlane } from "react-icons/fa";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
-
-  const sendEmail = async (formData: FormData) => {
-    "use server"
-
-    console.log("Running on server")
-    console.log(formData.get("senderEmail"))
-    console.log(formData.get("message"))
-  }
 
   return (
     <motion.section
