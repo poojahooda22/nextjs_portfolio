@@ -12,7 +12,7 @@ import { FaPaperPlane } from "react-icons/fa";
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
 
-  const sendEmail = async (formData) => {
+  const sendEmail = async (formData: FormData) => {
     "use server"
 
     console.log("Running on server")
