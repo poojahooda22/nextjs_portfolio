@@ -50,10 +50,12 @@ export default function Contact() {
 
       <form
         className="mt-10 flex flex-col dark:text-black"
-        action={(formData) => {
-          console.log("Running on client")
+        action={async (formData) => {
+          console.log("Running on client") 
           console.log(formData.get("SenderEmail"))
           console.log(formData.get("Message"))
+
+          await sendEmail(formData);
         }}
       >
         <input
