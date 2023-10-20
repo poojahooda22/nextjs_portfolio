@@ -12,6 +12,14 @@ import { FaPaperPlane } from "react-icons/fa";
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
 
+  const sendEmail = async (formData) => {
+    "use server"
+
+    console.log("Running on server")
+    console.log(formData.get("senderEmail"))
+    console.log(formData.get("message"))
+  }
+
   return (
     <motion.section
       id="contact"
@@ -42,16 +50,11 @@ export default function Contact() {
 
       <form
         className="mt-10 flex flex-col dark:text-black"
-        // action={async (formData) => {
-        //   const { data, error } = await sendEmail(formData);
-
-        //   if (error) {
-        //     toast.error(error);
-        //     return;
-        //   }
-
-        //   toast.success("Email sent successfully!");
-        // }}
+        action={(formData) => {
+          console.log("Running on client")
+          console.log(formData.get("SenderEmail"))
+          console.log(formData.get("Message"))
+        }}
       >
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white 
@@ -81,7 +84,7 @@ export default function Contact() {
           Submit 
           <FaPaperPlane 
             className="text-xs opacity-70 transition-all 
-            group-hover:translate-x-1 
+             group-hover:translate-x-1 
             group-hover:-translate-y-1"  
            /> {" "}
         </button>
