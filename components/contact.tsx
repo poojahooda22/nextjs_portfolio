@@ -7,10 +7,11 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
-import { FaPaperPlane } from "react-icons/fa";
+
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  
 
   return (
     <motion.section
@@ -44,7 +45,13 @@ export default function Contact() {
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
       
-          await sendEmail(formData);
+          const { data, error } = await sendEmail(formData);
+
+          if (error) {
+            toast.error(error);
+            return;
+          }
+          toast.success("Email sent successfully!")
         }}
       >
         <input
@@ -66,7 +73,7 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <button 
+        {/* <button 
           type="submit" 
           className="flex items-center justify-center gap-2 h-[3rem] w-[8rem] 
           bg-gray-900 text-white rounded-full outline-none transition-all 
@@ -78,7 +85,8 @@ export default function Contact() {
              group-hover:translate-x-1 
             group-hover:-translate-y-1"  
            /> {" "}
-        </button>
+        </button> */}
+        <SubmitBtn />
       </form>
     </motion.section>
   );
