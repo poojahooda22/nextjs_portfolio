@@ -26,7 +26,7 @@ export default function Experience() {
         lineColor=''
       >
         {experiencesData.map((item, index) =>  (
-                    <React.Fragment  key={index}>
+          <React.Fragment  key={index}>
                         <VerticalTimelineElement
                            contentStyle={{
                             background:
