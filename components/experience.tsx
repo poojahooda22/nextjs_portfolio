@@ -22,7 +22,7 @@ export default function Experience() {
     >
       <SectionHeading>My Experience </SectionHeading>
       <VerticalTimeline 
-      className="my-custom-class line-class" lineColor=''>
+        className="my-custom-class line-class" lineColor=''>
             {experiencesData.map((item, index) =>  (
                     <React.Fragment  key={index}>
                         <VerticalTimelineElement
