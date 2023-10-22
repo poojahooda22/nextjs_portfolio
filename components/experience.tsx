@@ -21,7 +21,7 @@ export default function Experience() {
       className="scroll-mt-28 mb-28 sm:mb-40"
     >
       <SectionHeading>My Experience </SectionHeading>
-        <VerticalTimeline className="my-custom-class line-class" lineColor=''>
+      <VerticalTimeline className="my-custom-class line-class" lineColor=''>
             {experiencesData.map((item, index) =>  (
                     <React.Fragment  key={index}>
                         <VerticalTimelineElement
