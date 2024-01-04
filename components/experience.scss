@@ -18,7 +18,8 @@
 }
 
 .vertical-timeline::before {
-    background: #e4e4e7;
+    display: none !important;
+    background: #0d0d17;
     width: 2px;
     height: 100%;
     left: 50%;
