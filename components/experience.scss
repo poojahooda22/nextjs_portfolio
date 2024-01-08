@@ -6,7 +6,7 @@
 .line-class .vertical-timeline-element-icon.is-hidden {
     display: block !important;
     visibility: visible; 
-    background-color: #fff; 
+    
     border: 1px solid #d5d5d8;  
     z-index: 999;
     overflow: hidden;  
@@ -14,12 +14,13 @@
 
 .line-class .vertical-timeline-element-icon {
     z-index: 1000 !important; 
-    border: 1px solid #e4e4e7; 
+    border: 1px solid #e4e4e7;
+    
 }
 
 .vertical-timeline::before {
    
-    background: #0d0d17;
+    background: 'theme === "light" ? "#333" : "#fff';
     width: 2px;
     height: 100%;
     left: 50%;
