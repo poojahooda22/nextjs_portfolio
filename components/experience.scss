@@ -8,12 +8,12 @@
     visibility: visible; 
     
     border: 1px solid #d5d5d8;  
-    z-index: 999;
+    
     overflow: hidden;  
 }
 
 .line-class .vertical-timeline-element-icon {
-    z-index: 1000 !important; 
+    
     border: 1px solid #e4e4e7;
     
 }
@@ -27,7 +27,7 @@
     top: 0;
     content: '';
     position: absolute;
-    z-index: 999; 
+     
 }
 
     
