@@ -41,6 +41,7 @@ export const experiencesData = [
       "Led the product design management for an e-learning Mobile & Web application, overseeing the implementation of various features to enhance user experience.",
     icon: React.createElement(CgWorkAlt),
     date: "2022-2023",
+
   },
   {
     title: "Post Graduate in Software Development",
@@ -75,6 +76,7 @@ export const projectsData = [
       "I cloned Awwwards winning website Cuberto. It's a single page website with a lot of animations and interactions.",
     tags: ["HTML", "CSS", "Javascript", "GSAP", "Locomotive"],
     imageUrl: cubertoImg,
+    imagePath: "https://poojahooda22.github.io/Cuberto-newWebsite-Clone/",
   },
   {
     title: "Youtube Clone",
