@@ -4,7 +4,6 @@
 
 
 
-https://github.com/poojahooda22/nextjs_portfolio/assets/91055527/fb62a5a1-5b80-43bb-889a-5cdcd14ce7ea
 
 
 
