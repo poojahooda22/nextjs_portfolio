@@ -35,7 +35,7 @@ export default function Intro() {
                     }}
                 >
                     <Image 
-                        src="https://images.unsplash.com/photo-1692035053386-76667a66067a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIxNHx0b3dKWkZza3BHZ3x8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60" alt="Pooja"
+                        src="/photo.png" alt="Pooja"
                         width="192"
                         height="192"
                         quality="95"
@@ -66,7 +66,7 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100}}
             animate={{ opacity: 1, y: 0}}
         >
-            <span className='font-bold'>Hello, I'm Pooja.</span> I'm a{" "}<span className='font-bold'>frontend developer, </span> enjoy building <span className='italic'> websites and apps</span> with a lot of<span className='font-bold'> animations and effects</span>. My focus is<span className='underline'> React (Next.js)</span>.
+            <span className='font-bold'>Hello, I'm Pooja.</span> I'm a{" "}<span className='font-bold'>full-stack developer, </span> enjoy building <span className='italic'> websites and apps</span> that are both<span className='font-bold'> highly animated and fully functional</span>. My focus is<span className='underline'> React (Next.js), MERN Stack</span>.
         </motion.h1>
 
         <motion.div 
@@ -79,7 +79,7 @@ export default function Intro() {
                 delay: 0.1,
             }}
         >
-            <Link 
+            {/* <Link 
                 href="#contact"
                 className='group bg-gray-900 text-white px-7 
                 py-3 flex items-center gap-2 rounded-full
@@ -93,12 +93,12 @@ export default function Intro() {
             >
                 Contact me here <BsArrowRight 
                 className='opacity-70 group-hover:translate-x-1 transition'/>                
-            </Link>
+            </Link> */}
             <a
                 className='group bg-white px-7 py-3 flex items-center gap-2 
                 rounded-full outline-none focus:scale-110 hover:scale-110
                 hover:bg-white active:scale-105
-                transition cursor-pointer dark:bg-white/10' href='/CV.pdf' download
+                transition cursor-pointer dark:bg-white/10' href='/MyResume.pdf' download
             >Download CV <HiDownload className='opacity-70 group-hover:translate-1 
             transition' />
             </a>
