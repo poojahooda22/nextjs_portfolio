@@ -31,15 +31,14 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Sanity. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a fullstack
+        . Recently, I have expanded my skill set to include backend development, completing two projects in this domain with plans to complete five more. I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a full-stack
         developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching anime, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things in tech.</span>{" "}
+        <span className="italic">When I'm not coding</span>, I enjoy watching anime, and playing with my dog.{" "}
+        <span className="font-medium"></span>{" "}
         <span className="font-medium"></span>
       </p>
       
