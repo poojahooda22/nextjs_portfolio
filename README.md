@@ -1,10 +1,13 @@
 
+
+
+https://github.com/poojahooda22/nextjs_portfolio/assets/91055527/42ec91d4-ed17-46cb-97c0-3d72c3294570
+
 ![nextjs-website](https://github.com/poojahooda22/nextjs_portfolio/assets/91055527/a575f2ec-05c7-4b11-a611-3e53ebd03a84)
 ![Screenshot 2024-01-10 113416](https://github.com/poojahooda22/nextjs_portfolio/assets/91055527/d46945c1-7848-496f-9bc3-523247332374)
 
 
 
-https://github.com/poojahooda22/nextjs_portfolio/assets/91055527/fb62a5a1-5b80-43bb-889a-5cdcd14ce7ea
 
 
 
