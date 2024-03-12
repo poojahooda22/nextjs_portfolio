@@ -11,7 +11,7 @@ type ProjectProps = (typeof projectsData)[number] & {
     imagePath: string;
 };
  
-export default function Project({ title, description, tags, imageUrl, imagePath}: 
+export default function Project({ title, description, tags, imageUrl}: 
     ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress} = useScroll ({
