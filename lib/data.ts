@@ -1,12 +1,16 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaServer } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cubertoImg from "@/public/cubertonew.png";
 import youtubeImg from "@/public/youtube-clone.png";
 import heroSectionImg from "@/public/hero section.png";
-import disneyConeImg from "@/public/disneyConeImg.png";
-import webImg from "@/public/webImg.png";
+import disneyNew from "@/public/disneyNew.png";
+import webImg from "@/public/webNew.png";
+import moveMouseImg from "@/public/moveMouse.png";
+
+import website3d from "@/public/website3d.png";
 
 export const links = [
   {
@@ -65,7 +69,7 @@ export const experiencesData = [
     title: "Frontend Developer",
     location: "Delhi, India",
     description:
-      "Developed 15+ Projects in frontend. My stack includes React, Next.js, TypeScript, Tailwind, Sanity and MongoDB. I'm open to full-time opportunities.",
+      "Developed 10+ Projects in frontend. My stack includes React, Next.js, TypeScript, Tailwind, Sanity and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2022 - 2024",
   },
@@ -74,7 +78,7 @@ export const experiencesData = [
     location: "Delhi, India",
     description:
       "I'm now a up skilling myself to backend developement. Learning MongoDB, MySql and much more in my pipeline.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaServer),
     date: "2024 - present",
   },
   
@@ -95,20 +99,23 @@ export const projectsData = [
       "Clone of youtube homepage, with a search bar that fetches videos from the youtube API.",
     tags: ["React", "Javascript", "API", "Redux"],
     imageUrl: youtubeImg,
-  },
-  {
-    title: "Web Page",
-    description:
-      "A web page that display a video and animations.",
-    tags: ["HTML", "CSS", "Javascript", "GSAP"],
-    imageUrl: heroSectionImg,
+    imagePath: "https://poojahooda22.github.io/youtube-clone/"
   },
   {
     title: "Disney+ Clone",
     description:
       "Clone the Disney+ homepage, with a slider that fetches movies from the TMDB API.",
     tags: ["React", "Next js", "Typescript", "Motion"],
-    imageUrl: disneyConeImg,
+    imageUrl: disneyNew,
+    imagePath: "https://disney-clone-eight-azure.vercel.app/"
+  },
+  {
+    title: "3D Website",
+    description:
+      "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
+    tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
+    imageUrl: website3d,
+    imagePath: "https://disney-clone-eight-azure.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -116,6 +123,24 @@ export const projectsData = [
       "My portfolio website, built with vanilla javascript and GSAP for motion.",
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     imageUrl: webImg,
+    imagePath: "https://poojahooda22.github.io/modern-website/"
+  },
+  {
+    title: "Landing Page",
+    description:
+      "A web page that display a video and animations.",
+    tags: ["HTML", "CSS", "Javascript", "GSAP"],
+    imageUrl: heroSectionImg,
+    imagePath: "https://poojahooda22.github.io/landing-page-03/"
+  },
+  
+  {
+    title: "GSAP Animation",
+    description:
+      "A webpage featuring animations, where images emerge from the bottom to the top as the mouse is moved.",
+    tags: ["HTML", "CSS", "Javascript", "GSAP"],
+    imageUrl: moveMouseImg,
+    imagePath: "https://poojahooda22.github.io/mousemove-images-animation/"
   },
 ] as const;
 
@@ -125,17 +150,24 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
   "Sanity",
   "MongoDB",
+  "MySql",
   "Redux",
   "Framer Motion",
   "GSAP",
   "Locomotive",
   "Java",
   "p5",
-  "matter.js"
+  "matter.js",
+  "Three js",
+  "Prismic",
+  "Git",
+  "Github",
+  "Postman"
 ] as const;
