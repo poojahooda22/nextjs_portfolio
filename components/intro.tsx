@@ -9,6 +9,7 @@ import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { SiLeetcode } from "react-icons/si";
 
 
 export default function Intro() {
@@ -114,6 +115,14 @@ export default function Intro() {
                 transition borderBlack dark:bg-white/10 dark:text-white/60' href='https://github.com/poojahooda22' target='_blank'
             >
                 <BsGithub />
+            </a>
+            
+            <a 
+                className='bg-white p-4 text-gray-700 flex items-center 
+                gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105
+                transition borderBlack dark:bg-white/10 dark:text-white/60' href='https://leetcode.com/phooda938/' target='_blank'
+            >
+                <SiLeetcode />
             </a>
         </motion.div>
     </section>
