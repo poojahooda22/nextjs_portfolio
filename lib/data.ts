@@ -109,14 +109,14 @@ export const projectsData = [
     imageUrl: disneyNew,
     imagePath: "https://disney-clone-eight-azure.vercel.app/"
   },
-  {
-    title: "3D Website",
-    description:
-      "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
-    tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
-    imageUrl: website3d,
-    imagePath: "https://pooja-portfolio-one.vercel.app/"
-  },
+  // {
+  //   title: "3D Website",
+  //   description:
+  //     "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
+  //   tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
+  //   imageUrl: website3d,
+  //   imagePath: "https://pooja-portfolio-one.vercel.app/"
+  // },
   {
     title: "Portfolio Website",
     description:
