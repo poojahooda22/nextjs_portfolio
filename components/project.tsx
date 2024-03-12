@@ -48,7 +48,7 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                     ) )}
                 </ul>
             </div> 
-            <Link href={imagePath}>
+            
                 <Image 
                     src={imageUrl} alt={title} quality={95}
                     
@@ -67,7 +67,7 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                     group-even:right-[initial] 
                     group-even:-left-40'
                 />
-            </Link>
+            
             
         </section>  
     </motion.div>
