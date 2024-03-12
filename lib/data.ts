@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import cubertoImg from "@/public/cubertonew.png";
 import youtubeImg from "@/public/youtube-clone.png";
 import heroSectionImg from "@/public/hero section.png";
+import disneyConeImg from "@/public/disneyConeImg.png";
+import webImg from "@/public/webImg.png";
 
 export const links = [
   {
@@ -63,10 +65,19 @@ export const experiencesData = [
     title: "Frontend Developer",
     location: "Delhi, India",
     description:
-      "I'm now a frontend developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Sanity and MongoDB. I'm open to full-time opportunities.",
+      "Developed 15+ Projects in frontend. My stack includes React, Next.js, TypeScript, Tailwind, Sanity and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2022 - 2024",
   },
+  {
+    title: "Full Stack Developer",
+    location: "Delhi, India",
+    description:
+      "I'm now a up skilling myself to backend developement. Learning MongoDB, MySql and much more in my pipeline.",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
+  },
+  
 ] as const;
 
 export const projectsData = [
@@ -91,6 +102,20 @@ export const projectsData = [
       "A web page that display a video and animations.",
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     imageUrl: heroSectionImg,
+  },
+  {
+    title: "Disney+ Clone",
+    description:
+      "Clone the Disney+ homepage, with a slider that fetches movies from the TMDB API.",
+    tags: ["React", "Next js", "Typescript", "Motion"],
+    imageUrl: disneyConeImg,
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "My portfolio website, built with vanilla javascript and GSAP for motion.",
+    tags: ["HTML", "CSS", "Javascript", "GSAP"],
+    imageUrl: webImg,
   },
 ] as const;
 
