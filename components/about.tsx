@@ -33,15 +33,14 @@ export default function About() {
         </span>
         . I am also familiar with TypeScript and Sanity. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a frontend
+        <span className="font-medium">full-time position</span> as a fullstack
         developer.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy watching anime, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>.
+        <span className="font-medium">learning new things in tech.</span>{" "}
+        <span className="font-medium"></span>
       </p>
       
     </motion.section>
