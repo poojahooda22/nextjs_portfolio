@@ -143,8 +143,7 @@ export const projectsData = [
     tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
     imageUrl: website3d,
     imagePath: "https://pooja-portfolio-pink.vercel.app/"
-  },
-  
+  }, 
   {
     title: "Landing Page",
     description:
@@ -161,7 +160,6 @@ export const projectsData = [
     imageUrl: thread,
     imagePath: "https://pooja-portfolio-pink.vercel.app/"
   },
-  
   {
     title: "GSAP Animation",
     description:
