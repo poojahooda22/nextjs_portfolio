@@ -82,7 +82,7 @@ export default function Intro() {
         >
             {/* <Link 
                 href="#contact"
-                className='group bg-gray-900 text-              
+                className='group bg-gray-900 te              
              */}
             <a
                 className='group bg-white px-7 py-3 flex items-center gap-2 
