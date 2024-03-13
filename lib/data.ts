@@ -9,7 +9,7 @@ import heroSectionImg from "@/public/hero section.png";
 import disneyNew from "@/public/disneyNew.png";
 import webImg from "@/public/webNew.png";
 import moveMouseImg from "@/public/moveMouse.png";
-
+import airbnb from "@/public/airbnb.png";
 import website3d from "@/public/website3d.png";
 
 export const links = [
@@ -102,21 +102,13 @@ export const projectsData = [
     imagePath: "https://poojahooda22.github.io/youtube-clone/"
   },
   {
-    title: "Disney+ Clone",
+    title: "Airbnb Web App Clone",
     description:
-      "Clone the Disney+ homepage, with a slider that fetches movies from the TMDB API.",
-    tags: ["React", "Next js", "Typescript", "Motion"],
-    imageUrl: disneyNew,
+      "Clone the airbnb web app, user can login and signup, upload the listing of houses or book hotels from the a set of categories for holidays.",
+    tags: ["React", "Next js", "Typescript", "MongoDB", "Tailwind", ],
+    imageUrl: airbnb,
     imagePath: "https://disney-clone-eight-azure.vercel.app/"
   },
-  // {
-  //   title: "3D Website",
-  //   description:
-  //     "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
-  //   tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
-  //   imageUrl: website3d,
-  //   imagePath: "https://pooja-portfolio-one.vercel.app/"
-  // },
   {
     title: "Portfolio Website",
     description:
@@ -124,6 +116,22 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     imageUrl: webImg,
     imagePath: "https://poojahooda22.github.io/modern-website/"
+  },
+  {
+    title: "Disney+ Clone",
+    description:
+      "Clone the Disney+ homepage, with a slider that fetches movies from the TMDB API.",
+    tags: ["React", "Next js", "Typescript", "Motion"],
+    imageUrl: disneyNew,
+    imagePath: "https://disney-clone-eight-azure.vercel.app/"
+  },
+  {
+    title: "Three js Website",
+    description:
+      "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
+    tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
+    imageUrl: website3d,
+    imagePath: "https://pooja-portfolio-one.vercel.app/"
   },
   {
     title: "Landing Page",
