@@ -93,7 +93,7 @@ export default function Intro() {
                   }}
             >
                 Contact me here <BsArrowRight 
-                className='opacity-70 group-hover:translate-x-1                 
+                className='opacity-70 group-hover:trans                 
              */}
             <a
                 className='group bg-white px-7 py-3 flex items-center gap-2 
