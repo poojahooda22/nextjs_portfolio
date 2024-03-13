@@ -90,10 +90,7 @@ export default function Intro() {
                 onClick={() => {
                     setActiveSection("Contact");
                     setTimeOfLastClick(Date.now());
-                  }}
-            >
-                 
-                                
+                  }}                  
              */}
             <a
                 className='group bg-white px-7 py-3 flex items-center gap-2 
