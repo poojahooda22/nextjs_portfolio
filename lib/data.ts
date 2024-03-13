@@ -11,6 +11,7 @@ import webImg from "@/public/webNew.png";
 import moveMouseImg from "@/public/moveMouse.png";
 import airbnb from "@/public/airbnb.png";
 import website3d from "@/public/website3d.png";
+import discord from "@/public/discord.png";
 
 export const links = [
   {
@@ -109,6 +110,7 @@ export const projectsData = [
     imageUrl: airbnb,
     imagePath: "https://disney-clone-eight-azure.vercel.app/"
   },
+  
   {
     title: "Portfolio Website",
     description:
@@ -116,6 +118,14 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     imageUrl: webImg,
     imagePath: "https://poojahooda22.github.io/modern-website/"
+  },
+  {
+    title: "Discord Clone",
+    description:
+      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
+    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand" ],
+    imageUrl: discord,
+    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
   {
     title: "Disney+ Clone",
