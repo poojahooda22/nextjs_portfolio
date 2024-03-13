@@ -12,6 +12,7 @@ import moveMouseImg from "@/public/moveMouse.png";
 import airbnb from "@/public/airbnb.png";
 import website3d from "@/public/website3d.png";
 import discord from "@/public/discord.png";
+import thread from "@/public/thread.png";
 
 export const links = [
   {
@@ -143,6 +144,7 @@ export const projectsData = [
     imageUrl: website3d,
     imagePath: "https://pooja-portfolio-pink.vercel.app/"
   },
+  
   {
     title: "Landing Page",
     description:
@@ -150,6 +152,14 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     imageUrl: heroSectionImg,
     imagePath: "https://poojahooda22.github.io/landing-page-03/"
+  },
+  {
+    title: "Threads Clone",
+    description:
+      "Integrated Clerk for secure and seamless user authentication, enhancing trust and privacy.",
+    tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
+    imageUrl: thread,
+    imagePath: "https://pooja-portfolio-pink.vercel.app/"
   },
   
   {
