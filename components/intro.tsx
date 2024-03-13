@@ -87,7 +87,7 @@ export default function Intro() {
                 outline-none focus:scale-110 hover:scale-110
                 hover:bg-gray-950 active:scale-105
                 transition'
-                onClick={() => 
+                
                                  
              */}
             <a
