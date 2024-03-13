@@ -88,7 +88,7 @@ export default function Intro() {
                 hover:bg-gray-950 active:scale-105
                 transition'
                 onClick={() => {
-                    setActiveSection("Contact");
+                    
                                  
              */}
             <a
