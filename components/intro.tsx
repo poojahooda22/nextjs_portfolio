@@ -92,7 +92,7 @@ export default function Intro() {
                     setTimeOfLastClick(Date.now());
                   }}
             >
-                Contact me here <BsArrowRight 
+                Contact me here  
                                 
              */}
             <a
