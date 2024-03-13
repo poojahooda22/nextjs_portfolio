@@ -89,7 +89,7 @@ export default function Intro() {
                 transition'
                 onClick={() => {
                     setActiveSection("Contact");
-                    setTimeOfLastClick(Date.now());              
+                                 
              */}
             <a
                 className='group bg-white px-7 py-3 flex items-center gap-2 
