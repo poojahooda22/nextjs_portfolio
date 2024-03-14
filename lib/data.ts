@@ -112,14 +112,7 @@ export const projectsData = [
   //   imagePath: "https://disney-clone-eight-azure.vercel.app/"
   // },
   
-  {
-    title: "Portfolio Website",
-    description:
-      "My portfolio website, built with vanilla javascript and GSAP for motion.",
-    tags: ["HTML", "CSS", "Javascript", "GSAP"],
-    imageUrl: webImg,
-    imagePath: "https://poojahooda22.github.io/modern-website/"
-  },
+  
   {
     title: "Discord Clone",
     description:
@@ -127,6 +120,14 @@ export const projectsData = [
     tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand" ],
     imageUrl: discord,
     imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "My portfolio website, built with vanilla javascript and GSAP for motion.",
+    tags: ["HTML", "CSS", "Javascript", "GSAP"],
+    imageUrl: webImg,
+    imagePath: "https://poojahooda22.github.io/modern-website/"
   },
   {
     title: "Disney+ Clone",
