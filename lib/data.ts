@@ -103,14 +103,14 @@ export const projectsData = [
     imageUrl: youtubeImg,
     imagePath: "https://poojahooda22.github.io/youtube-clone/"
   },
-  {
-    title: "Airbnb Web App Clone",
-    description:
-      "Clone the airbnb web app, user can login and signup, upload the listing of houses or book hotels from the a set of categories for holidays.",
-    tags: ["React", "Next js", "Typescript", "MongoDB", "Tailwind", ],
-    imageUrl: airbnb,
-    imagePath: "https://disney-clone-eight-azure.vercel.app/"
-  },
+  // {
+  //   title: "Airbnb Web App Clone",
+  //   description:
+  //     "Clone the airbnb web app, user can login and signup, upload the listing of houses or book hotels from the a set of categories for holidays.",
+  //   tags: ["React", "Next js", "Typescript", "MongoDB", "Tailwind", ],
+  //   imageUrl: airbnb,
+  //   imagePath: "https://disney-clone-eight-azure.vercel.app/"
+  // },
   
   {
     title: "Portfolio Website",
@@ -152,14 +152,14 @@ export const projectsData = [
     imageUrl: heroSectionImg,
     imagePath: "https://poojahooda22.github.io/landing-page-03/"
   },
-  {
-    title: "Threads Clone",
-    description:
-      "Integrated Clerk for secure and seamless user authentication, enhancing trust and privacy.",
-    tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
-    imageUrl: thread,
-    imagePath: "https://pooja-portfolio-pink.vercel.app/"
-  },
+  // {
+  //   title: "Threads Clone",
+  //   description:
+  //     "Integrated Clerk for secure and seamless user authentication, enhancing trust and privacy.",
+  //   tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
+  //   imageUrl: thread,
+  //   imagePath: "https://pooja-portfolio-pink.vercel.app/"
+  // },
   {
     title: "GSAP Animation",
     description:
