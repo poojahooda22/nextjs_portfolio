@@ -41,7 +41,7 @@ export default function Experience() {
                 borderRadius: "16px",
                 padding: "1.3rem 2rem",
                             
-                       }}
+                      }}
                           contentArrowStyle={{
                             borderRight:
                               theme === "light"
