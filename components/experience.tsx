@@ -42,7 +42,7 @@ export default function Experience() {
                 padding: "1.3rem 2rem",
                             
               }}
-                  contentArrowStyle={{
+                contentArrowStyle={{
                             borderRight:
                               theme === "light"
                                 ? "0.4rem solid #9ca3af"
