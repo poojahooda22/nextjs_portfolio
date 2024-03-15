@@ -23,7 +23,7 @@ export default function Experience() {
     >
       <SectionHeading>
         My Experience 
-        </SectionHeading>
+      </SectionHeading>
       <VerticalTimeline 
         className="my-custom-class line-class" 
         lineColor=''
