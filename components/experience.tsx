@@ -37,7 +37,7 @@ export default function Experience() {
                             boxShadow:  "0px 12px 16px -4px rgba(16, 24, 40, 0.08) , 0px 4px 6px -2px rgba(16, 24, 40, 0.03) ",
                             border: 
                             theme ==="light" ? "1px solid #e4e4e7" : "none",
-                          textAlign: "left",
+                        textAlign: "left",
                         borderRadius: "16px",
                         padding: "1.3rem 2rem",
                             
