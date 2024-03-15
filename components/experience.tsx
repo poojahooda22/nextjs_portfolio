@@ -22,7 +22,8 @@ export default function Experience() {
       sm:mb-40"
     >
       <SectionHeading>
-        My Experience </SectionHeading>
+        My Experience 
+        </SectionHeading>
       <VerticalTimeline 
         className="my-custom-class line-class" 
         lineColor=''
