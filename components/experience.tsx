@@ -56,7 +56,7 @@ export default function Experience() {
                             fontSize: "1.5rem",
                           color: "#1f2937",
                            border: 
-                            theme ==="light" ? "1px solid #e4e4e7" : "none",
+                          theme ==="light" ? "1px solid #e4e4e7" : "none",
                             zIndex: 
                           theme ==="light" ? "999" : "-1",
                             
