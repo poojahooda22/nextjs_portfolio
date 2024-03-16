@@ -58,7 +58,7 @@ export default function Experience() {
                             border: 
                             theme ==="light" ? "1px solid #e4e4e7" : "none",
                             zIndex: 
-                            theme ==="light" ? "999" : "-1",
+                          theme ==="light" ? "999" : "-1",
                             
                     }}
                     >
