@@ -68,8 +68,8 @@ export default function Experience() {
                       >{item.description}</p>
                         </ VerticalTimelineElement>
                     </React.Fragment>
-          ))}    
-        </VerticalTimeline>
+        ))}    
+      </VerticalTimeline>
     </section>
   );
 }
