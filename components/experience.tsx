@@ -61,7 +61,7 @@ export default function Experience() {
                       theme ==="light" ? "999" : "-1",                           
                     }}
                     >
-                          <h3  className="font-semibold capitalize mb-2">{item.title}</h3>
+                        <h3  className="font-semibold capitalize mb-2">{item.title}</h3>
                       <p className="font-normal !mt-0  mb-2">{item.location}</p>
                         <p 
                               className="!mt-1 !font-normal text-gray-700  mb-2 dark:text-white/75"
