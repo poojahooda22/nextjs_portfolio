@@ -52,7 +52,7 @@ export default function Experience() {
                 icon={item.icon}
                   iconStyle={{
                   background:
-                    theme === "light" ? "white" : "white",
+                  theme === "light" ? "white" : "white",
                     fontSize: "1.5rem",
                   color: "#1f2937",
                     border: 
