@@ -83,7 +83,8 @@ export default function Intro() {
                 transition cursor-pointer dark:bg-white/10' 
                 href='/My_Resume.pdf' 
                 download
-            >Download CV 
+            >
+                Download CV 
             <HiDownload className='opacity-70 group-hover:translate-1 
             transition' />
             </a>
