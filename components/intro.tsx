@@ -69,7 +69,6 @@ export default function Intro() {
         >
             <span className='font-bold'>Hello, I'm Pooja.</span> I'm a{" "}<span className='font-bold'>full-stack developer, </span> enjoy building <span className='italic'> websites and apps</span> that are both<span className='font-bold'> highly animated and fully functional</span>. My focus is<span className='underline'> React (Next.js), MERN Stack</span>.
         </motion.h1>
-
         <motion.div 
             className='flex flex-col sm:flex-row items-center justify-center 
             gap-4 
