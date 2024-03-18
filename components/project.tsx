@@ -51,7 +51,7 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                 </h3>
                 <p 
                     className='mt-2 leading-relaxed text-gray-700 dark:text-white/70'
-                    >
+                >
                     {description}
                 </p>
                 <ul 
