@@ -44,7 +44,8 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                 sm:max-w-[50%] flex flex-col 
                 h-full group-even:ml-[20rem]'
             >
-                <h3 className='text-2xl font-semibold'>
+                <h3 
+                className='text-2xl font-semibold'>
                     {title}
                 </h3>
                 <p 
