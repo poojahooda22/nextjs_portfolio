@@ -48,7 +48,8 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                     {title}
                 </h3>
                 <p className='mt-2 leading-relaxed text-gray-700 dark:text-white/70'>
-                    {description}</p>
+                    {description}
+                    </p>
                 <ul className='flex flex-wrap mt-4 gap-2 sm:mt-auto'>
                     {tags.map((tag, index) => (
                         <li 
