@@ -86,7 +86,7 @@ export default function Intro() {
             >
                 Download CV 
                 <HiDownload 
-                className='opacity-70 group-hover:translate-1 
+                    className='opacity-70 group-hover:translate-1 
                 transition' />
             </a>
             <a 
