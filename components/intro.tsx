@@ -101,7 +101,8 @@ export default function Intro() {
                 className='bg-white p-4 text-gray-700 flex items-center 
                 gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] 
                 hover:text-gray-950 active:scale-105
-                transition borderBlack dark:bg-white/10 dark:text-white/60' href='https://github.com/poojahooda22' target='_blank'
+                transition borderBlack dark:bg-white/10 dark:text-white/60' 
+                href='https://github.com/poojahooda22' target='_blank'
             >
                 <BsGithub />
             </a>
