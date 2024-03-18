@@ -40,7 +40,8 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
             group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20'
         >
             <div 
-                className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 
+                className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 
+                sm:pt-10 
                 sm:max-w-[50%] flex flex-col 
                 h-full group-even:ml-[20rem]'
             >
