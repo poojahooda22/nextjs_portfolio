@@ -60,7 +60,6 @@ export default function Intro() {
                 </motion.span>
             </div>
         </div>
-
         <motion.h1 
             className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] 
             sm:text-4xl'
