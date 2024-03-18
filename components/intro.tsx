@@ -76,7 +76,8 @@ export default function Intro() {
             }}
         >
             <a
-                className='group bg-white px-7 py-3 flex items-center gap-2 
+                className='group bg-white px-7 py-3 flex 
+                items-center gap-2 
                 rounded-full outline-none focus:scale-110 hover:scale-110
                 hover:bg-white active:scale-105
                 transition cursor-pointer dark:bg-white/10' href='/My_Resume.pdf' download
