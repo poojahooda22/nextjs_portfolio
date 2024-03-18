@@ -58,7 +58,6 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                         group-hover:-translate-x-3
                         group-hover:-translate-y-3
                         group-hover:rotate-2
-
                         group-even:group-hover:-translate-x-3
                         group-even:group-hover:-translate-y-3
                         group-even:group-hover:rotate-2
