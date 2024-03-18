@@ -70,7 +70,6 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                     ) )}
                 </ul>
             </div> 
-            
                 <Link href={imagePath}>
                     <Image 
                         src={imageUrl} alt={title} quality={95} 
