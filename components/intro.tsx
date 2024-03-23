@@ -82,7 +82,7 @@ export default function Intro() {
                 rounded-full outline-none focus:scale-110 hover:scale-110
                 hover:bg-white active:scale-105
                 transition cursor-pointer dark:bg-white/10' 
-                href='/My_Resume.pdf' 
+                href='/Resume_updated.pdf' 
                 download
             >
                 Download CV 
