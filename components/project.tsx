@@ -33,7 +33,7 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
         >
             <Link 
                     href={imagePath}
-                >
+            >
         <section 
             className='group bg-gray-100 max-w-[42rem] border 
             border-black/5 overflow-hidden 
