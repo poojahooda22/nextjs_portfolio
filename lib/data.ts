@@ -169,6 +169,14 @@ export const projectsData = [
     imageUrl: moveMouseImg,
     imagePath: "https://poojahooda22.github.io/mousemove-images-animation/"
   },
+  {
+    title: "Text-pill Animation",
+    description:
+      "A webpage featuring animations, where text pills emerge from the top to the bottom and move via mouse move.",
+    tags: ["HTML", "CSS", "Javascript", "P5", "Matter.js"],
+    imageUrl: moveMouseImg,
+    imagePath: "https://poojahooda22.github.io/mousemove-images-animation/"
+  },
 ] as const;
 
 export const skillsData = [
