@@ -31,6 +31,9 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
             }}
             className=' group mb-3 sm:mb-8 last:mb-0'
         >
+            <Link 
+                    href={imagePath}
+                >
         <section 
             className='group bg-gray-100 max-w-[42rem] border 
             border-black/5 overflow-hidden 
@@ -73,10 +76,7 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                     ) )}
                 </ul>
             </div> 
-                <Link 
-                    href={imagePath}
-                >
-                    <Image 
+                <Image 
                         src={imageUrl} alt={title} quality={95} 
                         className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] object-fit 
                         rounded-t-lg shadow-2xl
@@ -90,9 +90,9 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
                         group-even:group-hover:rotate-2
                         group-even:right-[initial] 
                         group-even:-left-40'
-                    />
-                </Link>  
+                    /> 
         </section>  
+        </Link>
     </motion.div>
     );
 }
