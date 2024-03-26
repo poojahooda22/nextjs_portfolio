@@ -13,6 +13,7 @@ import airbnb from "@/public/airbnb.png";
 import website3d from "@/public/website3d.png";
 import discord from "@/public/discord.png";
 import thread from "@/public/thread.png";
+import pill_image from "@/public/pill_image.png";
 
 export const links = [
   {
