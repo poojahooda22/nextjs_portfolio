@@ -32,7 +32,7 @@ export default function Project({ title, description, tags, imageUrl, imagePath}
             className=' group mb-3 sm:mb-8 last:mb-0'
         >
             <Link 
-                    href={imagePath}
+                href={imagePath}
             >
         <section 
             className='group bg-gray-100 max-w-[42rem] border 
