@@ -175,8 +175,8 @@ export const projectsData = [
     description:
       "A webpage featuring animations, where text pills emerge from the top to the bottom and move via mouse move.",
     tags: ["HTML", "CSS", "Javascript", "P5", "Matter.js"],
-    imageUrl: moveMouseImg,
-    imagePath: "https://poojahooda22.github.io/mousemove-images-animation/"
+    imageUrl: pill_image,
+    imagePath: "https://poojahooda22.github.io/pill-text-animate/"
   },
 ] as const;
 
