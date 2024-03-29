@@ -166,7 +166,7 @@ export const projectsData = [
   // {
   //   title: "Threads Clone",
   //   description:
-  //     "Integrated Clerk for secure and seamless user authentication, enhancing trust and privacy.",
+  //     
   //   
   //  
   //   
