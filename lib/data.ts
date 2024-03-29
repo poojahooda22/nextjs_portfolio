@@ -14,7 +14,7 @@ import website3d from "@/public/website3d.png";
 import discord from "@/public/discord.png";
 import thread from "@/public/thread.png";
 import pill_image from "@/public/pil-img.png";
-import motion1 from "@/public/motion1.png";
+import motion1 from "@/public/motion3.png";
 
 export const links = [
   {
@@ -122,14 +122,7 @@ export const projectsData = [
     imagePath: "https://motion-website-rose.vercel.app/"
   },
   
-  {
-    title: "Discord Clone",
-    description:
-      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
-    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand" ],
-    imageUrl: discord,
-    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
-  },
+  
   {
     title: "Portfolio Website",
     description:
@@ -137,6 +130,14 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     imageUrl: webImg,
     imagePath: "https://poojahooda22.github.io/modern-website/"
+  },
+  {
+    title: "Discord Clone",
+    description:
+      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
+    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand" ],
+    imageUrl: discord,
+    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
   {
     title: "Disney+ Clone",
