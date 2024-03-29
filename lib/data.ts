@@ -105,14 +105,6 @@ export const projectsData = [
     imageUrl: youtubeImg,
     imagePath: "https://poojahooda22.github.io/youtube-clone/"
   },
-  // {
-  //   title: "Airbnb Web App Clone",
-  //   description:
-  //     "Clone the airbnb web app, user can login and signup, upload the listing of houses or book hotels from the a set of categories for holidays.",
-  //   tags: ["React", "Next js", "Typescript", "MongoDB", "Tailwind", ],
-  //   imageUrl: airbnb,
-  //   imagePath: "https://disney-clone-eight-azure.vercel.app/"
-  // },
   {
     title: "Motion Website",
     description:
