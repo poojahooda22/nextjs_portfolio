@@ -164,8 +164,7 @@ export const projectsData = [
     imagePath: "https://poojahooda22.github.io/landing-page-03/"
   },
   // {
-  //   title: "Threads Clone",
-  //   
+  //  
   //     
   //   
   //  
