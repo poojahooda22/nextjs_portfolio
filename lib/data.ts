@@ -14,6 +14,7 @@ import website3d from "@/public/website3d.png";
 import discord from "@/public/discord.png";
 import thread from "@/public/thread.png";
 import pill_image from "@/public/pil-img.png";
+import motion1 from "@/public/motion1.png";
 
 export const links = [
   {
@@ -112,7 +113,14 @@ export const projectsData = [
   //   imageUrl: airbnb,
   //   imagePath: "https://disney-clone-eight-azure.vercel.app/"
   // },
-  
+  {
+    title: "Motion Website",
+    description:
+      "An Awwwards winning Ochi design website, with a lot of animations and interactions.",
+    tags: ["Vite","React", "Typescript", "Framer Motion", "locomotive-scroll", "Tailwindcss"],
+    imageUrl: motion1,
+    imagePath: "https://motion-website-rose.vercel.app/"
+  },
   
   {
     title: "Discord Clone",
