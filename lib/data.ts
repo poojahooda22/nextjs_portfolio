@@ -169,7 +169,7 @@ export const projectsData = [
   //     "Integrated Clerk for secure and seamless user authentication, enhancing trust and privacy.",
   //   tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
   //   imageUrl: thread,
-  //   imagePath: "https://pooja-portfolio-pink.vercel.app/"
+  //   
   // },
   {
     title: "GSAP Animation",
