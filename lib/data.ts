@@ -163,13 +163,6 @@ export const projectsData = [
     imageUrl: heroSectionImg,
     imagePath: "https://poojahooda22.github.io/landing-page-03/"
   },
-  // {
-  //  
-  //     
-  //   
-  //  
-  
-  // },
   {
     title: "GSAP Animation",
     description:
