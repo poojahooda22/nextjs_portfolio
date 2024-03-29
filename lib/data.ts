@@ -168,7 +168,7 @@ export const projectsData = [
   //     
   //   
   //  
-  //   
+  
   // },
   {
     title: "GSAP Animation",
