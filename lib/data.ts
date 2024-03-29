@@ -168,7 +168,7 @@ export const projectsData = [
   //   description:
   //     "Integrated Clerk for secure and seamless user authentication, enhancing trust and privacy.",
   //   tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
-  //   imageUrl: thread,
+  //  
   //   
   // },
   {
