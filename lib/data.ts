@@ -165,7 +165,7 @@ export const projectsData = [
   },
   // {
   //   title: "Threads Clone",
-  //   description:
+  //   
   //     
   //   
   //  
