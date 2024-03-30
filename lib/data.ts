@@ -9,10 +9,8 @@ import heroSectionImg from "@/public/hero section.png";
 import disneyNew from "@/public/disneyNew.png";
 import webImg from "@/public/webNew.png";
 import moveMouseImg from "@/public/moveMouse.png";
-import airbnb from "@/public/airbnb.png";
 import website3d from "@/public/website3d.png";
 import discord from "@/public/discord.png";
-import thread from "@/public/thread.png";
 import pill_image from "@/public/pil-img.png";
 import motion1 from "@/public/motion3.png";
 
