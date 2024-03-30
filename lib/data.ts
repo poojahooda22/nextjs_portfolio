@@ -112,7 +112,6 @@ export const projectsData = [
     imagePath: "https://motion-website-rose.vercel.app/"
   },
   
-  
   {
     title: "Portfolio Website",
     description:
