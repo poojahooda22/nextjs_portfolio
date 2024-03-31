@@ -95,14 +95,7 @@ export const projectsData = [
     imageUrl: cubertoImg,
     imagePath: "https://poojahooda22.github.io/Cuberto-newWebsite-Clone/",
   },
-  {
-    title: "Youtube Clone",
-    description:
-      "Clone of youtube homepage, with a search bar that fetches videos from the youtube API.",
-    tags: ["React", "Javascript", "API", "Redux"],
-    imageUrl: youtubeImg,
-    imagePath: "https://poojahooda22.github.io/youtube-clone/"
-  },
+  
   {
     title: "Motion Website",
     description:
