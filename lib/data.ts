@@ -126,7 +126,7 @@ export const projectsData = [
     title: "Discord Clone",
     description:
       "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
-    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand" ],
+    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand", "Socket.io" ],
     imageUrl: discord,
     imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
