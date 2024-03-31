@@ -113,14 +113,7 @@ export const projectsData = [
     imageUrl: webImg,
     imagePath: "https://poojahooda22.github.io/modern-website/"
   },
-  {
-    title: "Discord Clone",
-    description:
-      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
-    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand" ],
-    imageUrl: discord,
-    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
-  },
+  
   {
     title: "Youtube Clone",
     description:
@@ -128,6 +121,14 @@ export const projectsData = [
     tags: ["React", "Javascript", "API", "Redux"],
     imageUrl: youtubeImg,
     imagePath: "https://poojahooda22.github.io/youtube-clone/"
+  },
+  {
+    title: "Discord Clone",
+    description:
+      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
+    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand" ],
+    imageUrl: discord,
+    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
   {
     title: "Disney+ Clone",
