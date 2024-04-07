@@ -95,6 +95,14 @@ export const projectsData = [
     imageUrl: cubertoImg,
     imagePath: "https://poojahooda22.github.io/Cuberto-newWebsite-Clone/",
   },
+  {
+    title: "Design Studio Clone",
+    description:
+      "An Awwwards winning Significo design studio website, with a lot of animations and interactions.",
+    tags: ["Vite","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss"],
+    imageUrl: motion1,
+    imagePath: "https://motion-website-rose.vercel.app/"
+  },
   
   {
     title: "Motion Website",
