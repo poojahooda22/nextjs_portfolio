@@ -113,6 +113,14 @@ export const projectsData = [
     imageUrl: motion1,
     imagePath: "https://motion-website-rose.vercel.app/"
   },
+  {
+    title: "Youtube Clone",
+    description:
+      "Clone of youtube homepage, with a search bar that fetches videos from the youtube API.",
+    tags: ["React", "Javascript", "API", "Redux"],
+    imageUrl: youtubeImg,
+    imagePath: "https://poojahooda22.github.io/youtube-clone/"
+  },
   
   {
     title: "Portfolio Website",
@@ -124,14 +132,6 @@ export const projectsData = [
   },
   
   
-  {
-    title: "Discord Clone",
-    description:
-      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
-    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand", "Socket.io" ],
-    imageUrl: discord,
-    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
-  },
   {
     title: "Disney+ Clone",
     description:
