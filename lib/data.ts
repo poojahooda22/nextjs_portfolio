@@ -101,7 +101,7 @@ export const projectsData = [
     description:
       "An Awwwards winning Significo design studio website, with a lot of animations and interactions.",
     tags: ["Vite","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", "GSAP"],
-    imageUrl: motion1,
+    imageUrl: motion2,
     imagePath: "https://motion-website-rose.vercel.app/"
   },
   
@@ -123,14 +123,7 @@ export const projectsData = [
     imagePath: "https://poojahooda22.github.io/modern-website/"
   },
   
-  {
-    title: "Youtube Clone",
-    description:
-      "Clone of youtube homepage, with a search bar that fetches videos from the youtube API.",
-    tags: ["React", "Javascript", "API", "Redux"],
-    imageUrl: youtubeImg,
-    imagePath: "https://poojahooda22.github.io/youtube-clone/"
-  },
+  
   {
     title: "Discord Clone",
     description:
