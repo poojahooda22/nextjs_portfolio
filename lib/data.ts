@@ -99,7 +99,7 @@ export const projectsData = [
     title: "Design Studio Clone",
     description:
       "An Awwwards winning Significo design studio website, with a lot of animations and interactions.",
-    tags: ["Vite","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss"],
+    tags: ["Vite","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", "GSAP"],
     imageUrl: motion1,
     imagePath: "https://motion-website-rose.vercel.app/"
   },
