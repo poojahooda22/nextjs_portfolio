@@ -102,7 +102,7 @@ export const projectsData = [
       "An Awwwards winning Significo design studio website, with a lot of animations and interactions.",
     tags: ["Vite","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", "GSAP"],
     imageUrl: motion2,
-    imagePath: "https://motion-website-rose.vercel.app/"
+    imagePath: "https://motion-project-alpha.vercel.app/"
   },
   
   {
