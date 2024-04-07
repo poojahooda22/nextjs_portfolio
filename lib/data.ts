@@ -13,6 +13,7 @@ import website3d from "@/public/website3d.png";
 import discord from "@/public/discord.png";
 import pill_image from "@/public/pil-img.png";
 import motion1 from "@/public/motion3.png";
+import motion2 from "@/public/motionSig.png";
 
 export const links = [
   {
