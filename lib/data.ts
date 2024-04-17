@@ -14,6 +14,7 @@ import discord from "@/public/discord.png";
 import pill_image from "@/public/pil-img.png";
 import motion1 from "@/public/motion3.png";
 import motion2 from "@/public/motionSig.png";
+import obysPick from "@/public/obys.png";
 
 export const links = [
   {
@@ -109,9 +110,17 @@ export const projectsData = [
     title: "Motion Website",
     description:
       "An Awwwards winning Ochi design website, with a lot of animations and interactions.",
-    tags: ["Vite","React", "Typescript", "Framer Motion", "locomotive-scroll", "Tailwindcss"],
+    tags: ["Vite","React", "Typescript", "Framer Motion", "locomotive-scroll", "Tailwindcss", 'GSAP'],
     imageUrl: motion1,
     imagePath: "https://motion-website-rose.vercel.app/"
+  },
+  {
+    title: "Obys Agency Clone",
+    description:
+      "An Awwwards winning Obys design website, with a lot of animations and interactions.",
+    tags: ["Vite","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", 'GSAP'],
+    imageUrl: obysPick,
+    imagePath: "https://obys-clone-ten.vercel.app/"
   },
   {
     title: "Youtube Clone",
@@ -131,7 +140,14 @@ export const projectsData = [
     imagePath: "https://poojahooda22.github.io/modern-website/"
   },
   
-  
+  {
+    title: "Discord Clone",
+    description:
+      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
+    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand", "Socket.io" ],
+    imageUrl: discord,
+    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
+  },
   {
     title: "Disney+ Clone",
     description:
@@ -141,14 +157,7 @@ export const projectsData = [
     imagePath: "https://disney-clone-eight-azure.vercel.app/"
   },
   
-  {
-    title: "Discord Clone",
-    description:
-      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
-    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand", "Socket.io" ],
-    imageUrl: discord,
-    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
-  },
+  
   {
     title: "Three js Website",
     description:
