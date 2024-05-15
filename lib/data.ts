@@ -15,6 +15,8 @@ import pill_image from "@/public/pil-img.png";
 import motion1 from "@/public/motion3.png";
 import motion2 from "@/public/motionSig.png";
 import obysPick from "@/public/obys.png";
+import makeImg from '@/public/pillMake.png'
+import pine from '@/public/pine.png'
 
 export const links = [
   {
@@ -105,6 +107,14 @@ export const projectsData = [
     imageUrl: motion2,
     imagePath: "https://motion-project-alpha.vercel.app/"
   },
+  {
+    title: "Makepill Clone",
+    description:
+      "An Awwwards winning Makepill studio website, with a lot of animations and interactions.",
+    tags: ["Nextjs","React", "Javascript", "Framer Motion", "lenis", "Tailwindcss", "GSAP"],
+    imageUrl: makeImg,
+    imagePath: "https://makepill-redesign.vercel.app/"
+  },
   
   {
     title: "Motion Website",
@@ -139,6 +149,14 @@ export const projectsData = [
     imageUrl: webImg,
     imagePath: "https://poojahooda22.github.io/modern-website/"
   },
+  {
+    title: "Disney+ Clone",
+    description:
+      "Clone the Disney+ homepage, with a slider that fetches movies from the TMDB API.",
+    tags: ["React", "Next js", "Typescript", "Motion"],
+    imageUrl: disneyNew,
+    imagePath: "https://disney-clone-eight-azure.vercel.app/"
+  },
   
   {
     title: "Discord Clone",
@@ -148,14 +166,7 @@ export const projectsData = [
     imageUrl: discord,
     imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
-  {
-    title: "Disney+ Clone",
-    description:
-      "Clone the Disney+ homepage, with a slider that fetches movies from the TMDB API.",
-    tags: ["React", "Next js", "Typescript", "Motion"],
-    imageUrl: disneyNew,
-    imagePath: "https://disney-clone-eight-azure.vercel.app/"
-  },
+  
   
   
   {
@@ -173,6 +184,14 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     imageUrl: heroSectionImg,
     imagePath: "https://poojahooda22.github.io/landing-page-03/"
+  },
+  {
+    title: "Webpage 3D Rotation Animation",
+    description:
+      "A web page that display a title and 3D rotation animation.",
+    tags: ["React", "Javascript", "GSAP", "Framer-motion"],
+    imageUrl: pine,
+    imagePath: "https://webpage-3danime.vercel.app/"
   },
   {
     title: "GSAP Animation",
