@@ -1,4 +1,3 @@
-
 "use server";
 import React from "react";
 import { Resend } from "resend";
@@ -30,6 +29,7 @@ export const sendEmail = async (formData: FormData) => {
       subject: "Message from contact form",
       reply_to: senderEmail as string,
       text: message as string,
+      
     });
   } catch (error) {
     return {
@@ -37,6 +37,7 @@ export const sendEmail = async (formData: FormData) => {
     }
   }
   return {
-    data, 
+    data,
+     
   };
 };
