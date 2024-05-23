@@ -53,6 +53,7 @@ export default function Contact() {
             return;
           }
           toast.success("Email sent successfully!")
+          
         }}
       >
         <input
@@ -64,6 +65,7 @@ export default function Contact() {
           required
           maxLength={500}
           placeholder="Your email"
+          onReset={ }
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-[#f3f4f6] 
