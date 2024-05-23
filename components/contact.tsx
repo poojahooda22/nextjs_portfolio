@@ -57,10 +57,9 @@ export default function Contact() {
           }
           toast.success("Email sent successfully!")
           // Reset the form
-    if (formRef.current) {
-      (formRef.current as HTMLFormElement).reset();
-    }
-          
+          if (formRef.current) {
+            (formRef.current as HTMLFormElement).reset();
+          }  
         }}
       >
         <input
