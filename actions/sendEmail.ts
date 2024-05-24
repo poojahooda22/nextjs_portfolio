@@ -3,7 +3,7 @@ import React from "react";
 import { Resend } from "resend";
 import { getErrorMessage, validateString } from '../lib/utils';
 
-// this is how that exception is
+// this is how that exception is handled
 const resendApiKey = process.env.RESEND_API_KEY;
 if (!resendApiKey) {
   throw new Error('Missing RESEND_API_KEY environment variable');
