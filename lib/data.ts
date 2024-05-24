@@ -183,7 +183,7 @@ export const projectsData = [
     imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
   {
-    title: "",
+    title: "Airbnb",
     description:
       "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
     tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
