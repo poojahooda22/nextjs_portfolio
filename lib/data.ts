@@ -17,6 +17,7 @@ import motion2 from "@/public/motionSig.png";
 import obysPick from "@/public/obys.png";
 import makeImg from '@/public/pillMake.png'
 import pine from '@/public/pine.png'
+import brndbt from '@/public/brndbt.png'
 
 export const links = [
   {
@@ -100,6 +101,14 @@ export const projectsData = [
     imagePath: "https://poojahooda22.github.io/Cuberto-newWebsite-Clone/",
   },
   {
+    title: "Design Agency Website",
+    description:
+      "An Awwwards winning Brandbeet design studio website, with a lot of animations and interactions.",
+    tags: ["Nextjs","React", "Javascript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
+    imageUrl: brndbt,
+    imagePath: "https://designwebsite-nu.vercel.app/"
+  },
+  {
     title: "Design Studio Clone",
     description:
       "An Awwwards winning Significo design studio website, with a lot of animations and interactions.",
@@ -157,18 +166,6 @@ export const projectsData = [
     imageUrl: disneyNew,
     imagePath: "https://disney-clone-eight-azure.vercel.app/"
   },
-  
-  {
-    title: "Discord Clone",
-    description:
-      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
-    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand", "Socket.io" ],
-    imageUrl: discord,
-    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
-  },
-  
-  
-  
   {
     title: "Three js Website",
     description:
@@ -177,6 +174,14 @@ export const projectsData = [
     imageUrl: website3d,
     imagePath: "https://pooja-portfolio-pink.vercel.app/"
   }, 
+  {
+    title: "Discord Clone",
+    description:
+      "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
+    tags: ["React", "Next js", "Typescript", "Prisma", "Tailwind", "Mysql", "Zustand", "Socket.io" ],
+    imageUrl: discord,
+    imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
+  },
   {
     title: "Landing Page",
     description:
