@@ -187,7 +187,7 @@ export const projectsData = [
     description:
       "It is a clone of Airbnb website, with a search bar that fetches hotels from the API.",
     tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
-    imageUrl: website3d,
+    imageUrl: ,
     imagePath: "https://airbnb-video-seven.vercel.app/"
   },
   {
