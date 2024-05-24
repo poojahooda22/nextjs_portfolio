@@ -96,7 +96,7 @@ export const projectsData = [
   {
     title: "Cuberto Clone",
     description:
-      "I cloned Awwwards winning website Cuberto. It's a single page website with a lot of animations and interactions.",
+      "I made Awwwards winning website Cuberto. It's a single page website with a lot of animations and interactions.",
     tags: ["HTML", "CSS", "Javascript", "GSAP", "Locomotive"],
     imageUrl: cubertoImg,
     imagePath: "https://poojahooda22.github.io/Cuberto-newWebsite-Clone/",
