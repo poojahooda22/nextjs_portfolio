@@ -124,8 +124,7 @@ export const projectsData = [
     tags: ["Nextjs","React", "Javascript", "Framer Motion", "lenis", "Tailwindcss", "GSAP"],
     imageUrl: makeImg,
     imagePath: "https://makepill-redesign.vercel.app/"
-  },
-  
+  },  
   {
     title: "Motion Website",
     description:
