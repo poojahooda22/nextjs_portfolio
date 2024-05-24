@@ -247,5 +247,5 @@ export const skillsData = [
   "Git",
   "Github",
   "Postman",
-  ""
+  "AWS"
 ] as const;
