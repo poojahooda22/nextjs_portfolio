@@ -87,8 +87,7 @@ export const experiencesData = [
       "I'm now a up skilling myself to backend developement. Learning MongoDB, MySql and much more in my pipeline.",
     icon: React.createElement(FaServer),
     date: "2024 - present",
-  },
-  
+  }, 
 ] as const;
 
 export const projectsData = [
