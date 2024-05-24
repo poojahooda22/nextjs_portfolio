@@ -6,7 +6,6 @@ import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-
 const fadeInAnimationsVariants = {
     initial: {
         opacity: 0,
