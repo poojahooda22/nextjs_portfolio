@@ -33,7 +33,8 @@ export default function Skills() {
     >
       <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-4 
-      text-lg text-gray-800">
+      text-lg text-gray-800"
+      >
         {skillsData.map((skill, index) => (
             <motion.li
                 className="bg-white border border/black[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 dark:border-none "
