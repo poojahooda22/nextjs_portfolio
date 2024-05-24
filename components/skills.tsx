@@ -51,7 +51,6 @@ export default function Skills() {
                 custom={index}
             >
               {skill}
-
             </motion.li>
         ))}
       </ul>
