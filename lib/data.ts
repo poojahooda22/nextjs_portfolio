@@ -150,7 +150,6 @@ export const projectsData = [
     imageUrl: youtubeImg,
     imagePath: "https://poojahooda22.github.io/youtube-clone/"
   },
-  
   {
     title: "Portfolio Website",
     description:
