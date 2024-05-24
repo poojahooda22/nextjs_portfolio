@@ -238,7 +238,7 @@ export const skillsData = [
   "Redux",
   "Framer Motion",
   "GSAP",
-  "Locomotive",
+  "LocomotiveScroll",
   "Java",
   "p5",
   "matter.js",
