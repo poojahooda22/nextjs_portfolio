@@ -228,7 +228,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "React Native",
-  "Next.js",
+  "Nextjs",
   "Node.js",
   "Git",
   "Tailwind",
