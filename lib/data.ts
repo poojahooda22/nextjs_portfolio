@@ -183,7 +183,7 @@ export const projectsData = [
     imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
   {
-    title: "Airbnb",
+    title: "Airbnb Web App",
     description:
       "It is a clone of Airbnb website, with a search bar that fetches hotels from the API.",
     tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
