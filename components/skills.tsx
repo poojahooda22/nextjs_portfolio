@@ -33,7 +33,7 @@ export default function Skills() {
     >
       <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-4 
-      text-lg text-gray-800"
+        text-lg text-gray-800"
       >
         {skillsData.map((skill, index) => (
             <motion.li
