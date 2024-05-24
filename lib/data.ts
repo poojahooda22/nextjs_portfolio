@@ -246,5 +246,6 @@ export const skillsData = [
   "Prismic",
   "Git",
   "Github",
-  "Postman"
+  "Postman",
+  
 ] as const;
