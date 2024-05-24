@@ -3,8 +3,12 @@ import React from "react";
 import { Resend } from "resend";
 import { getErrorMessage, validateString } from '../lib/utils';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resendApiKey = process.env.RESEND_API_KEY;
+if (!resendApiKey) {
+  throw new Error('Missing RESEND_API_KEY environment variable');
+}
 
+const resend = new Resend(resendApiKey);
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
