@@ -47,7 +47,7 @@ export default function Skills() {
                   once: true,
                 }}
                 custom={index}
-            >
+          >
               {skill}
           </motion.li>
         ))}
