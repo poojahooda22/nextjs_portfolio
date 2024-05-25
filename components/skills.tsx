@@ -45,7 +45,7 @@ export default function Skills() {
             whileInView="animate"
               viewport={{
                 once: true,
-              }}
+            }}
             custom={index}
           >
             {skill}
