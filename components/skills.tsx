@@ -49,7 +49,7 @@ export default function Skills() {
                 custom={index}
             >
               {skill}
-            </motion.li>
+          </motion.li>
         ))}
       </ul>
     </section>
