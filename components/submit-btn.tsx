@@ -6,7 +6,7 @@ export default function SubmitBtn() {
   return (
     <button 
           type="submit" 
-        className="flex items-center justify-center gap-2 h-[3rem] w-[8rem] 
+      className="flex items-center justify-center gap-2 h-[3rem] w-[8rem] 
     bg-gray-900 text-white rounded-full outline-none transition-all 
       dark:bg-[#1d2432]"
     >
