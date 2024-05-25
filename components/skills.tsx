@@ -14,7 +14,7 @@ const fadeInAnimationsVariants = {
     animate: (index: number) => ({
       opacity: 1,
       y: 0,
-        transition: {
+      transition: {
           delay: 0.08 * index,
         },
     }),
