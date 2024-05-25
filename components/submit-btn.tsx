@@ -11,7 +11,7 @@ export default function SubmitBtn() {
       dark:bg-[#1d2432]"
     >
       Submit {" "}
-          <FaPaperPlane 
+        <FaPaperPlane 
             className="text-xs opacity-70 transition-all 
              group-hover:translate-x-1 
             group-hover:-translate-y-1"  
