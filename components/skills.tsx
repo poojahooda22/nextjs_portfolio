@@ -43,7 +43,7 @@ export default function Skills() {
                 variants={fadeInAnimationsVariants}
                 initial="initial"
                 whileInView="animate"
-                viewport={{
+              viewport={{
                   once: true,
               }}
               custom={index}
