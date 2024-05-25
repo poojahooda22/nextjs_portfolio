@@ -8,7 +8,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const fadeInAnimationsVariants = {
     initial: {
-        opacity: 0,
+      opacity: 0,
         y: 100,
     },
     animate: (index: number) => ({
