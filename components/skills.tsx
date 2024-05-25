@@ -16,7 +16,7 @@ const fadeInAnimationsVariants = {
       y: 0,
       transition: {
           delay: 0.08 * index,
-        },
+      },
     }),
 };
 export default function Skills() {
