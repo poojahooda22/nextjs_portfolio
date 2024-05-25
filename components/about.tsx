@@ -40,8 +40,7 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, I enjoy watching anime, and playing with my dog.{" "}
         <span className="font-medium"></span>{" "}
         <span className="font-medium"></span>
-      </p>
-      
+      </p> 
     </motion.section>
   )
 }
