@@ -10,7 +10,7 @@ export default function SubmitBtn() {
     bg-gray-900 text-white rounded-full outline-none transition-all 
       dark:bg-[#1d2432]"
     >
-          Submit {" "}
+        Submit {" "}
           <FaPaperPlane 
             className="text-xs opacity-70 transition-all 
              group-hover:translate-x-1 
