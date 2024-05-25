@@ -40,7 +40,7 @@ export default function Skills() {
             rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 
             dark:border-none "
             key={index}
-              variants={fadeInAnimationsVariants}
+            variants={fadeInAnimationsVariants}
               initial="initial"
               whileInView="animate"
               viewport={{
