@@ -13,7 +13,7 @@ export default function ThemeSwitch() {
       w-[3rem] h-[3rem] bg-opacity-80 
       backdrop-blur-[0.5rem] 
      border-solid borderBlack 
-      shadow-xl  
+    shadow-xl  
       overflow-hidden
       rounded-full flex 
       items-center 
