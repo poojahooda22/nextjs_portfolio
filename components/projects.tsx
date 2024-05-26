@@ -26,7 +26,7 @@ export default function Projects() {
         <SectionHeading>My Projects</SectionHeading>
         <div>
           {projectsData.map((project, index) => (
-                <React.Fragment key={index}>
+              <React.Fragment key={index}>
                   <Project {...project} />
                 </React.Fragment> 
           ))}
