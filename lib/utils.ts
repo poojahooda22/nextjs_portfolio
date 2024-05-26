@@ -21,6 +21,5 @@ export const validateString = (
     } else {
       message = "Something went wrong";
     }
-  
     return message;
   }; 
