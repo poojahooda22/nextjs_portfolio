@@ -15,8 +15,7 @@ export default function ThemeSwitch() {
      border-solid borderBlack shadow-xl  overflow-hidden
    rounded-full flex 
     items-center 
-  justify-center 
-hover:scale-[1.15] 
+  justify-center hover:scale-[1.15] 
     active:scale-105 
     transition-all  
       dark:bg-gray-950 
