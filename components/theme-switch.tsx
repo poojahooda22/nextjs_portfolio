@@ -17,7 +17,8 @@ export default function ThemeSwitch() {
       rounded-full flex items-center 
       justify-center 
       hover:scale-[1.15] active:scale-105 
-      transition-all  dark:bg-gray-950 dark:text-gray-50"
+      transition-all  dark:bg-gray-950 
+      dark:text-gray-50"
       onClick={toggleTheme}
     >
       {theme === "light" ? <BsSun /> : <BsMoon />}
