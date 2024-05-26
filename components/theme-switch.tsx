@@ -17,7 +17,7 @@ shadow-xl
  overflow-hidden
    rounded-full flex 
     items-center 
-      justify-center 
+     justify-center 
       hover:scale-[1.15] 
       active:scale-105 
       transition-all  
