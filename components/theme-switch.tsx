@@ -9,7 +9,8 @@ export default function ThemeSwitch() {
 
   return (
     <button
-      className="fixed top-5 right-5 bg-white w-[3rem] h-[3rem] 
+      className="fixed top-5 right-5 bg-white 
+      w-[3rem] h-[3rem] 
       bg-opacity-80 
       backdrop-blur-[0.5rem] 
       border-solid borderBlack shadow-xl  
