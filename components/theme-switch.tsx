@@ -16,7 +16,7 @@ export default function ThemeSwitch() {
 shadow-xl  
  overflow-hidden
    rounded-full flex 
-      items-center 
+    items-center 
       justify-center 
       hover:scale-[1.15] 
       active:scale-105 
