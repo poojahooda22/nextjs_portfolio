@@ -14,7 +14,7 @@ export default function ThemeSwitch() {
       backdrop-blur-[0.5rem] 
      border-solid borderBlack 
 shadow-xl  
-    overflow-hidden
+   overflow-hidden
       rounded-full flex 
       items-center 
       justify-center 
