@@ -5,7 +5,6 @@ export const validateString = (
     if (!value || typeof value !== "string" || value.length > maxLength) {
       return false;
     }
-  
     return true;
   };
   
