@@ -12,7 +12,7 @@ export default function ThemeSwitch() {
       className="fixed top-5 right-5 bg-white 
       w-[3rem] h-[3rem] bg-opacity-80 
       backdrop-blur-[0.5rem] 
-      border-solid borderBlack 
+     border-solid borderBlack 
       shadow-xl  
       overflow-hidden
       rounded-full flex 
