@@ -20,20 +20,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a master's course with<span className="font-medium"> Upgrad</span> and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+      I gathered significant experience in design, where I found my passion for
+        <span className="font-medium"> programming </span>{" "}
+        <span className=""> and learned full-stack web development.  My favorite part of programming</span> is the
+        problem-solving aspect, and I <span className="underline">love</span> developing creative websites and applications with micro-interactions and animations that provide a delightful user experience.
+        {" "} I have good knowledge of product design and development. 
+        <span className="font-medium"> My core stack is React, Next.js, Node.js, MongoDB and GSAP
         </span>
-        . Recently, I have expanded my skill set to include backend development, completing two projects in this domain with plans to complete five more. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a full-stack
-        developer.
+         {" "}
+        <span className="font-medium"></span>
       </p>
 
       <p>
