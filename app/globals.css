@@ -14,3 +14,18 @@ html.dark {
   @apply border border-black/10;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 6px; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
