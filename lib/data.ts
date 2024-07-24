@@ -108,6 +108,14 @@ export const projectsData = [
     imagePath: "https://designwebsite-nu.vercel.app/"
   },
   {
+    title: "Design Agency Website",
+    description:
+      "An Awwwards winning Brandbeet design studio website, with a lot of animations and interactions.",
+    tags: ["Nextjs","React", "Javascript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
+    imageUrl: brndbt,
+    imagePath: "https://designwebsite-nu.vercel.app/"
+  },
+  {
     title: "Design Studio Clone",
     description:
       "An Awwwards winning Significo design studio website, with a lot of animations and interactions.",
