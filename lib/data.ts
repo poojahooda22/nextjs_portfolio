@@ -19,6 +19,7 @@ import makeImg from '@/public/pillMake.png'
 import pine from '@/public/pine.png'
 import brndbt from '@/public/brndbt.png'
 import airbnb from '@/public/airbnb.png'
+import refo from '@/public/refo.png'
 
 export const links = [
   {
@@ -104,7 +105,7 @@ export const projectsData = [
     description:
       "An Awwwards winning design studio website, with a lot of animations and interactions and navigate through pages",
     tags: ["Nextjs","React", "Typescript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
-    imageUrl: brndbt,
+    imageUrl: refo,
     imagePath: "https://refokus-websitedesign.vercel.app/"
   },
   {
