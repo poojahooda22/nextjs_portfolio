@@ -100,9 +100,9 @@ export const projectsData = [
     imagePath: "https://poojahooda22.github.io/Cuberto-newWebsite-Clone/",
   },
   {
-    title: "Design Agency Website",
+    title: "Refokus Website",
     description:
-      "An Awwwards winning Brandbeet design studio website, with a lot of animations and interactions.",
+      "An Awwwards winning design studio website, with a lot of animations and interactions.",
     tags: ["Nextjs","React", "Javascript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
     imageUrl: brndbt,
     imagePath: "https://designwebsite-nu.vercel.app/"
