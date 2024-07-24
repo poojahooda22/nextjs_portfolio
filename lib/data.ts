@@ -100,14 +100,7 @@ export const projectsData = [
     imageUrl: cubertoImg,
     imagePath: "https://poojahooda22.github.io/Cuberto-newWebsite-Clone/",
   },
-  {
-    title: "Refokus Website",
-    description:
-      "An Awwwards winning design studio website, with a lot of animations and interactions and navigate through pages",
-    tags: ["Nextjs","React", "Typescript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
-    imageUrl: refo,
-    imagePath: "https://refokus-websitedesign.vercel.app/"
-  },
+  
   {
     title: "Design Agency Website",
     description:
@@ -115,6 +108,14 @@ export const projectsData = [
     tags: ["Nextjs","React", "Javascript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
     imageUrl: brndbt,
     imagePath: "https://designwebsite-nu.vercel.app/"
+  },
+  {
+    title: "Refokus Website",
+    description:
+      "An Awwwards winning design studio website, with a lot of animations and interactions and navigate through pages",
+    tags: ["Nextjs","React", "Typescript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
+    imageUrl: refo,
+    imagePath: "https://refokus-websitedesign.vercel.app/"
   },
   {
     title: "Design Studio Clone",
