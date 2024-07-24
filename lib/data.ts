@@ -105,7 +105,7 @@ export const projectsData = [
       "An Awwwards winning design studio website, with a lot of animations and interactions and navigate through pages",
     tags: ["Nextjs","React", "Typescript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss", "GSAP"],
     imageUrl: brndbt,
-    imagePath: "https://designwebsite-nu.vercel.app/"
+    imagePath: "https://refokus-websitedesign.vercel.app/"
   },
   {
     title: "Design Agency Website",
