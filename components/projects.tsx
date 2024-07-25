@@ -13,7 +13,6 @@ export default function Projects() {
   });
   const{ setActiveSection} = useActiveSectionContext();
 
-
   useEffect(() => {
     if(inView) {
       setActiveSection("Projects");
