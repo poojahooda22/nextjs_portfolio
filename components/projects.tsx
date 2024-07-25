@@ -8,12 +8,10 @@ import { useInView } from 'react-intersection-observer';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Projects() {
-
   const { ref, inView }  = useInView({
     threshold: 0.5,
   });
   const{ setActiveSection} = useActiveSectionContext();
-
 
   useEffect(() => {
     if(inView) {
@@ -26,9 +24,9 @@ export default function Projects() {
         <SectionHeading>My Projects</SectionHeading>
         <div>
           {projectsData.map((project, index) => (
-              <React.Fragment key={index}>
-                <Project {...project} />
-              </React.Fragment> 
+            <React.Fragment key={index}>
+              <Project {...project} />
+            </React.Fragment> 
           ))}
         </div>
     </section>
