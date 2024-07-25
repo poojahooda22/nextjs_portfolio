@@ -174,14 +174,6 @@ export const projectsData = [
     imagePath: "https://disney-clone-eight-azure.vercel.app/"
   },
   {
-    title: "Three js Website",
-    description:
-      "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
-    tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
-    imageUrl: website3d,
-    imagePath: "https://pooja-portfolio-pink.vercel.app/"
-  }, 
-  {
     title: "Discord Web App",
     description:
       "Integrated PlanetScale and Prisma/client for seamless database management and employed planetscale with mysql.",
@@ -189,6 +181,15 @@ export const projectsData = [
     imageUrl: discord,
     imagePath: "https://discord-clone-git-master-pooja-hoodas-projects.vercel.app/"
   },
+  {
+    title: "Three js Website",
+    description:
+      "A 3D website with animations and interactions. Used prismic for dynamic content slides.",
+    tags: ["React", "Next js", "Typescript", "Three.js", "Prismic", "Framer Motion"],
+    imageUrl: website3d,
+    imagePath: "https://pooja-portfolio-pink.vercel.app/"
+  }, 
+  
   {
     title: "Airbnb Web App",
     description:
