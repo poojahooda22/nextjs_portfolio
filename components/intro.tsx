@@ -34,13 +34,12 @@ export default function Intro() {
                 >
                     <Image 
                         src="/profile_photo.png" alt="Pooja"
-                        width="192"
-                        height="192"
+                        width="100"
+                        height="100"
                         quality="95"
                         priority={true}
-                        className='h-24 w-24 rounded-full object-cover 
-                        border-[0.35rem] 
-                        border-white shadow-xl'
+                        className='h-24 w-24 rounded-full object-cover
+                        border-black shadow-xl'
                     />
                 </motion.div>
                 <motion.span className='absolute bottom-0 right-0 text-2xl'
