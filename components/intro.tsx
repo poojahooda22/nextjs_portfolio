@@ -33,7 +33,7 @@ export default function Intro() {
                     }}
                 >
                     <Image 
-                        src="/profile_photo.png" alt="Pooja"
+                        src="/profile.png" alt="Pooja"
                         width="100"
                         height="100"
                         quality="95"
