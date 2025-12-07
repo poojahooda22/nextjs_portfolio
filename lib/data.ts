@@ -51,7 +51,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Product Designer",
-    location: "Delhi, India",
+    location: "SIERRA INNOVATIONS PVT. LTD.",
     description:
       "Led the product design management for an e-learning Mobile & Web application, overseeing the implementation of various features to enhance user experience.",
     icon: React.createElement(CgWorkAlt),
@@ -59,7 +59,7 @@ export const experiencesData = [
   },
   {
     title: "Post Graduate in Software Development",
-    location: "Bangalore, India",
+    location: "International Institute of Information Technology",
     description:
       "I enrolled in software development course with Upgard, also upskilled to the full stack.",
     icon: React.createElement(LuGraduationCap),
@@ -67,7 +67,7 @@ export const experiencesData = [
   },
   {
     title: "Master in Computer Science",
-    location: "London, UK",
+    location: "Liverpool John Moore's University",
     description:
       "I enrolled for master's in Computer Science in Liverpool John Moore's University.",
     icon: React.createElement(LuGraduationCap),
@@ -82,10 +82,10 @@ export const experiencesData = [
     date: "2022 - 2024",
   },
   {
-    title: "Full Stack Developer",
-    location: "Delhi, India",
+    title: "Software Engineer II",
+    location: "JP Morgan Chase & Co",
     description:
-      "I'm now a up skilling myself to backend developement. Learning MongoDB, MySql and much more in my pipeline.",
+      "Developed DP Studio, a one-stop web application for CIB Engineers and Product Owners to onboard, configure, deploy, and monitor shared services, improving internal workflows and reducing operational friction. Optimisation from JPMM Admin to DP Studio, delivering a unified interface for JP Morgan Markets and enhancing collaboration and teamwork across developers, product managers, platform engineers, and risk teams.",
     icon: React.createElement(FaServer),
     date: "2024 - present",
   }, 
@@ -241,6 +241,8 @@ export const skillsData = [
   "React Native",
   "Nextjs",
   "Nodejs",
+  "ReactQuery",
+  "Tanstack Query",
   "Git",
   "TailwindCSS",
   "Sanity",
